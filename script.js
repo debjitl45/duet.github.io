@@ -19,12 +19,12 @@ draw(ctx)
 ctx.clearRect(0,0,1496,722);
 ctx.fillStyle = '#f00' ;
 ctx.beginPath();
-ctx.arc(this.c_x1,this.c_y,0,0,2*Math.PI);
+ctx.arc(this.c_x1,this.c_y,10,0,2*Math.PI);
 ctx.fill();
 
 ctx.fillStyle = '#00f' ;
 ctx.beginPath();
-ctx.arc(this.c_x2,this.c_y,0,0,2*Math.PI);
+ctx.arc(this.c_x2,this.c_y,10,0,2*Math.PI);
 ctx.fill();
 
 ctx.fillStyle = '#fff' ;
